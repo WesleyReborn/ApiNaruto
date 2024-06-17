@@ -7,7 +7,6 @@
     <list default="true" id="2afee495-6a2f-40fd-b346-6bd6d1aa586c" name="Changes" comment="ApiNaruto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-naruto/src/main/java/com/naruto/apinaruto/controller/NarutoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-naruto/src/main/java/com/naruto/apinaruto/controller/NarutoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-naruto/src/test/java/com/naruto/apinaruto/NarutoController/NarutoControllerTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "WesleyReborn"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="094a2de3-7329-44ba-b1ea-f186af2b95f9" />
+        <option name="url" value="https://github.com/WesleyReborn/ApiNaruto.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -138,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718057930519</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ApiNaruto">
+      <option name="closed" value="true" />
+      <created>1718632520146</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1718632520146</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

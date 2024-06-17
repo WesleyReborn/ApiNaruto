@@ -43,7 +43,7 @@ public class NarutoController {
     }
 
     @DeleteMapping("/characters/{id}")
-    public void delete(@PathVariable Long id) {
+    public void delete(@PathVariable("id") Long id) {
         narutoRepository.deleteById(id);
     }
 }
