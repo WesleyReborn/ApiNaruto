@@ -20,7 +20,7 @@ public class NarutoController {
     private NarutoService narutoService;
 
     @GetMapping("/characters")
-    public List<NarutoModel> searchByName(@RequestParam String name) {
+    public List<NarutoModel> searchByName(@RequestParam("name") String name) {
         return narutoService.searchByName(name);
     }
 
