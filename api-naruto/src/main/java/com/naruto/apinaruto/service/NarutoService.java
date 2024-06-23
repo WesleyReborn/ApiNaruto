@@ -1,5 +1,6 @@
 package com.naruto.apinaruto.service;
 
+import com.naruto.apinaruto.exception.ApiException;
 import com.naruto.apinaruto.model.NarutoModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -45,11 +46,12 @@ public class NarutoService {
                 return List.of(character);
 
             } else {
-                logger.warn("API response is null or empty");
+                logger.warn("No characters found for name: {}", name);
+                return new ArrayList<>();
             }
         } catch (Exception e) {
             logger.error("Error occurred while fetching data from API: {}", e.getMessage());
+            throw new ApiException("Failed to fetch data from API", e);
         }
-        return new ArrayList<>();
     }
 }
