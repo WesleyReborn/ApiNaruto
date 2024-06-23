@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2afee495-6a2f-40fd-b346-6bd6d1aa586c" name="Changes" comment="ApiNaruto">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-naruto/src/main/java/com/naruto/apinaruto/exception/ApiException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-naruto/src/test/java/com/naruto/apinaruto/controller/NarutoControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-naruto/src/test/java/com/naruto/apinaruto/service/NarutoServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-naruto/src/test/resource/application-test.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-naruto/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-naruto/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-naruto/src/main/java/com/naruto/apinaruto/service/NarutoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-naruto/src/main/java/com/naruto/apinaruto/service/NarutoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-naruto/src/test/java/com/naruto/apinaruto/controller/NarutoControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-naruto/src/test/java/com/naruto/apinaruto/controller/NarutoControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-naruto/src/test/resource/application-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-naruto/src/test/resource/application-test.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,22 +55,24 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/AMD/Desktop/api-naruto&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Notification.DisplayName-DoNotAsk-Vcs Important Messages": "VCS important messages",
+    "Notification.DoNotAsk-Vcs Important Messages": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/AMD/Desktop/api-naruto",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Application.ApiNarutoApplication">
+}]]></component>
+  <component name="RunManager" selected="JUnit.NarutoControllerTest">
     <configuration name="ApiNarutoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.naruto.apinaruto.ApiNarutoApplication" />
       <module name="api-naruto" />
@@ -119,6 +117,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NarutoControllerTest.testSearchByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="api-naruto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.naruto.apinaruto.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.naruto.apinaruto.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.naruto.apinaruto.controller.NarutoControllerTest" />
+      <option name="METHOD_NAME" value="testSearchByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NarutoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="api-naruto" />
       <extension name="coverage">
@@ -134,29 +148,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NarutoServiceTest.testSearchByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="api-naruto" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.naruto.apinaruto.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.naruto.apinaruto.service" />
-      <option name="MAIN_CLASS_NAME" value="com.naruto.apinaruto.service.NarutoServiceTest" />
-      <option name="METHOD_NAME" value="testSearchByName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NarutoControllerTest" />
+        <item itemvalue="JUnit.NarutoServiceTest" />
+        <item itemvalue="JUnit.NarutoControllerTest.testSearchByName" />
         <item itemvalue="Application.ApiNarutoApplication" />
         <item itemvalue="JUnit.NarutoControllerTest.testDelete" />
-        <item itemvalue="JUnit.NarutoServiceTest" />
-        <item itemvalue="JUnit.NarutoServiceTest.testSearchByName" />
-        <item itemvalue="JUnit.NarutoControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -201,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718633367182</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ApiNaruto">
+      <option name="closed" value="true" />
+      <created>1719148466837</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719148466837</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
